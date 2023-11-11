@@ -1,0 +1,35 @@
+<div class="calculadora">
+    <div class="row">
+      <input type="text" id="screen" [(ngModel)]="displayText" readonly>
+    </div>
+    <div class="row">
+      <button type="button" (click)="onButtonClick('AC')">AC</button>
+      <button type="button" (click)="onButtonClick('+/-')">+/-</button>
+      <button type="button" (click)="onButtonClick('%')">%</button>
+      <button type="button" (click)="onButtonClick('÷')">÷</button>
+    </div>
+    <div class="row">
+      <button type="button" (click)="onButtonClick('7')">7</button>
+      <button type="button" (click)="onButtonClick('8')">8</button>
+      <button type="button" (click)="onButtonClick('9')">9</button>
+      <button type="button" (click)="onButtonClick('×')">×</button>
+    </div>
+    <div class="row">
+      <button type="button" (click)="onButtonClick('4')">4</button>
+      <button type="button" (click)="onButtonClick('5')">5</button>
+      <button type="button" (click)="onButtonClick('6')">6</button>
+      <button type="button" (click)="onButtonClick('-')">-</button>
+    </div>
+    <div class="row">
+      <button type="button" (click)="onButtonClick('1')">1</button>
+      <button type="button" (click)="onButtonClick('2')">2</button>
+      <button type="button" (click)="onButtonClick('3')">3</button>
+      <button type="button" (click)="onButtonClick('+')">+</button>
+    </div>
+    <div class="row">
+      <button type="button" (click)="onButtonClick('0')">0</button>
+      <button type="button" (click)="onButtonClick('.')">.</button>
+      <button type="button" (click)="onButtonClick('=')">=</button>
+    </div>
+  </div>
+  
